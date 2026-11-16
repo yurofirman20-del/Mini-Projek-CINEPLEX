@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deskripsi movie</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[rgb(25,24,24)] text-white">
+    <header class="h-screen bg-[url('aset2/bg.jpg')]  bg-repeat ">
+        <div class="bg-[rgba(0,0,0,0.50)]">
+            <nav class="flex justify-between h-[10vh] bg-[#121414CC] gap-4 px-10 sm:px-6 px-10px">
+                <div class="flex gap-10">
+                    <a href="#">
+                        <img src="aset2/SVG.svg" class="w-10 h-10 object-cover" alt="Logo" ml-10>
+                    </a>
+                    <h1 class="text-3xl font-serif font-extrabold tracking-wide items-center bg-center">Movie Stream
+                    </h1>
+                </div>
+                <div class="flex items-center gap-2">
+                    <input type="search" placeholder="Search Movie..."
+                        class="h-9 w-40 rounded-md border border-white/10 bg-neutral-800 text-sm text-neutral-100">
+                    <button
+                        class="grid h-9 w-9 place-items-center rounded-md border border-white/10 bg-neutral-800 bg-[url('aset2/save.png')] bg-no-repeat bg-center bg-size-[15px] cursor-pointer "></button>
+                    <button
+                        class="grid h-9 w-9 place-items-center rounded-md border border-white/10 bg-neutral-800 bg-[url('aset2/Icon.png')] bg-no-repeat bg-center bg-size-[15px] cursor-pointer"></button>
+                </div>
+            </nav>
+            <div class="flex flex-col pl-10 mt-50">
+                <div class="flex gap-5">
+                    <p class="flex bg-red-500 h-6 w-40 rounded-xs items-center justify-center font-bold">4K ULTRA HD</p>
+                    <p class="flex bg-[#33353599] h-6 w-20 rounded-xs items-center justify-center font-bold">IMAX</p>
+                </div>
+                <div class="font-medium text-[96px] font-stretch-condensed tracking-[-4px]">INTERSTELLAR</div>
+                <div class="flex text-[#E9BCB6] gap-3 ">
+                    <span>2014 </span>
+                    <span>.</span>
+                    <span>Sc-fi,Adventure,Drama</span>
+                    <span>.</span>
+                    <span>◴2h 49m</span>
+                </div>
+                <div class="flex gap-5 mt-10">
+                    <button
+                        class="flex bg-red-500 h-20 w-50 rounded-md items-center justify-center font-bold cursor-pointer">▶︎
+                        PLAY MOVIE</button>
+                    <button
+                        class="flex bg-[#33353599] h-20 w-30 rounded-md items-center justify-center font-bold cursor-pointer">+
+                        MY LIST</button>
+                    <button
+                        class="flex bg-[#33353599] h-20 w-20 rounded-md items-center justify-center font-bold bg-[url('aset2/share.png')] bg-no-repeat bg-center bg-size-[15px] cursor-pointer "></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="flex gap-2 pl-10 pt-3">
+        <div class="flex flex-col w-[70%]">
+            <div class=" h-40 ">
+                <p class="text-[#E9BCB6] text-xl mb-5">THE STORY</p>
+                <p class="tracking-wider">When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot,
+                    Joseph
+                    Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new
+                    planet for humans. As the team travels through a wormhole in space, they must face the
+                    unknown and the reality of time dilation, all while hoping to return home to their loved ones.</p>
+            </div>
+            <div class=" h-55">
+                <div class="flex justify-between">
+                    <p class="text-[#E9BCB6] text-xl mb-5 mt-10">TRAILERS & CLIPS</p>
+                    <a href="#" class="text-red-700 text-xs font-bold mt-10">View All ></a>
+                </div>
+                <div class="grid grid-cols-3 gap-4 h-full w-full overflow-x-auto" style="scrollbar-width: none;">
+                    <div class="bg-[url('aset2/vt1.jpg')] bg-cover w-[280px] h-[150px]">
+                        <p class="mt-37">Official Trailer #1</p>
+                    </div>
+                    <div class="bg-[url('aset2/vt2.jpg')] bg-cover w-[280px] h-[150px]">
+                        <p class="mt-37">"No Time for Caution" Clip</p>
+                    </div>
+                    <div class="bg-[url('aset2/vt3.jpg')] bg-cover w-[280px] h-[150px]">
+                        <p class="mt-37">The Science of Interstellar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grow mt-10">
+                <div>
+                    <p class="text-[#E9BCB6] text-xl mt-10 mb-10">CAST & CREW</p>
+                </div>
+                <div class="grid grid-cols-4 w-full gap-5 ml-10 mt-3">
+                    <div class="flex flex-col justify-center items-center text-center w-[100px]">
+                        <img src="aset2/pp1.jpg" alt="foto" class="w-[100px] h-[100px] object-cover rounded-lg">
+                        <p class="whitespace-nowrap">Matthew McConaughey</p>
+                        <p class="whitespace-nowrap text-[#E9BCB6]">Joseph Cooper</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center text-center w-[100px]">
+                        <img src="aset2/pp2.jpg" alt="foto" class="w-[100px] h-[100px] object-cover rounded-lg">
+                        <p class="whitespace-nowrap">Anne Hathaway</p>
+                        <p class="whitespace-nowrap text-[#E9BCB6]">Dr. Amelia Brand</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center text-center w-[100px]">
+                        <img src="aset2/pp3.jpg" alt="foto" class="w-[100px] h-[100px] object-cover rounded-lg">
+                        <p class="whitespace-nowrap">Michael Caine</p>
+                        <p class="whitespace-nowrap text-[#E9BCB6]">Director</p>
+                    </div>
+                    <div class="flex flex-col justify-center items-center text-center w-[100px]">
+                        <img src="aset2/pp4.jpg" alt="foto" class="w-[100px] h-[100px] object-cover rounded-lg">
+                        <p class="whitespace-nowrap text-center">Christopher Nolan</p>
+                        <p class="whitespace-nowrap text-[#E9BCB6]">Director</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col grow ">
+            <div class="h-80 w-80 bg-[#1E2020] ml-2 mt-10 p-4 rounded-3xl border border-[#5E3F3B]">
+                <p class="text-[#E9BCB6]">AVERAGE RATING</p>
+                <div class="flex">
+                    <p class=" font-extrabold text-3xl">8.7</p>
+                    <p class="text-[#E9BCB6] mt-3">/10</p>
+                    <img src="aset2/bintang.png" alt="bintang" class="ml-50">
+                </div>
+                <div class="flex gap-5 mt-5">
+                    <p class="text-[#E9BCB6] ">5</p>
+                    <div class="bg-[#333535] w-[286px] h-2 mt-2 rounded-lg">
+                        <div class="bg-[#FFDB3C] w-[228px] h-2 rounded-lg"></div>
+                    </div>
+                </div>
+                <div class="flex gap-5 mt-1">
+                    <p class="text-[#E9BCB6] ">5</p>
+                    <div class="bg-[#333535] w-[286px] h-2 mt-2 rounded-lg">
+                        <div class="bg-[#FFDB3C] w-[45px] h-2 rounded-lg"></div>
+                    </div>
+                </div>
+                <div class="flex gap-5 mt-1">
+                    <p class="text-[#E9BCB6] ">5</p>
+                    <div class="bg-[#333535] w-[286px] h-2 mt-2 rounded-lg">
+                        <div class="bg-[#FFDB3C] w-[9px] h-2 rounded-lg"></div>
+                    </div>
+                </div>
+                <div class="flex gap-5 mt-1">
+                    <p class="text-[#E9BCB6] ">5</p>
+                    <div class="bg-[#333535] w-[286px] h-2 mt-2 rounded-lg">
+                        <div class="bg-[#FFDB3C] w-[3px] h-2 rounded-lg"></div>
+                    </div>
+                </div>
+                <div class="flex gap-5 mt-1">
+                    <p class="text-[#E9BCB6] ">5</p>
+                    <div class="bg-[#333535] w-[286px] h-2 mt-2 rounded-lg">
+                        <div class="bg-[#FFDB3C] w-[3px] h-2 rounded-lg"></div>
+                    </div>
+                </div>
+                <button
+                    class="w-[290px] h-[48px] bg-[#333535] flex items-center justify-center mt-5 rounded-xl font-bold">
+                    RATE THIS MOVIE
+                </button>
+            </div>
+            <div class="grow flex flex-col p-5">
+                <div class="flex justify-between border-b-2 border-[#5E3F3B] h-10 mt-2">
+                    <p class=" text-[#E9BCB6]">Release Date</p>
+                    <p>Nov 7, 2014</p>
+                </div>
+                <div class="flex justify-between border-b-2 border-[#5E3F3B] h-10 mt-2">
+                    <p class="text-[#E9BCB6]">Box Office</p>
+                    <p>$773.9M</p>
+                </div>
+                <div class="flex justify-between border-b-2 border-[#5E3F3B] h-10 mt-2">
+                    <p class="text-[#E9BCB6]">Studio</p>
+                    <p>Warner Bros.</p>
+                </div>
+                <div class="flex justify-between border-b-2 border-[#5E3F3B] h-10 mt-2">
+                    <p class="text-[#E9BCB6]">Language</p>
+                    <p>English</p>
+                </div>
+            </div>
+            <div class="grow">
+                <p class="font-bold mb-5">Recent Reviews</p>
+                <div class="h-40 w-90 bg-[#1E2020] ml-2 rounded-3xl border border-[#5E3F3B]">
+                    <div class="flex">
+                        <p class="bg-[url('aset2/JD.png')] h-6 w-6 bg-no-repeat ml-3 mt-3"></p>
+                        <p class="mt-3 ml-3">John Doe</p>
+                        <p class="mt-3 ml-30">2 days ago</p>
+                    </div>
+                    <p class="p-5">"A visual masterpiece. The soundtrack by Hans Zimmer is
+                        hauntingly beautiful. A must-watch on the biggest screen
+                        possible."</p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="pl-10 pt-3 gap-3 border-y border-[#5E3F3B]">
+        <p class="text-[#E9BCB6] text-xl mt-10 mb-5">YOU MAY ALSO LIKE</p>
+        <div class="flex w-300 h-100 gap-10 overflow-x-auto">
+            <div class="grow bg-[url('aset2/crd1.jpg')] bg-cover w-[70px] h-[300px]">
+                <p class="mt-75">Inception</p>
+                <p class="text-[#E9BCB6]">2010 • Sci-Fi</p>
+            </div>
+            <div class="grow bg-[url('aset2/crd2.jpg')] bg-cover w-[70px] h-[300px]">
+                <p class="mt-75">Inception</p>
+                <p class="text-[#E9BCB6]">2010 • Sci-Fi</p>
+            </div>
+            <div class="grow bg-[url('aset2/crd3.jpg')] bg-cover w-[70px] h-[300px]">
+                <p class="mt-75">Inception</p>
+                <p class="text-[#E9BCB6]">2010 • Sci-Fi</p>
+            </div>
+            <div class="grow bg-[url('aset2/crd4.jpg')] bg-cover w-[70px] h-[300px]">
+                <p class="mt-75">Inception</p>
+                <p class="text-[#E9BCB6]">2010 • Sci-Fi</p>
+            </div>
+            <div class="grow bg-[url('aset2/crd5.jpg')] bg-cover w-[70px] h-[300px]">
+                <p class="mt-75">Inception</p>
+                <p class="text-[#E9BCB6]">2010 • Sci-Fi</p>
+            </div>
+            <div class="grow bg-[url('aset2/crd6.jpg')] bg-cover w-[70px] h-[300px]">
+                <p class="mt-75">Inception</p>
+                <p class="text-[#E9BCB6]">2010 • Sci-Fi</p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-black flex flex-col gap-10 justify-center items-center text-center h-[30vh]">
+        <p class="text-gray-500 font-bold">MOVIESTREAM</p>
+        <div class="flex flex-col justify-center gap-10 text-[#E9BCB6]">
+            <div class="flex justify-center items-center text-center gap-10">
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+                <p>Support</p>
+                <p>Cookie Settings</p>
+            </div>
+            <div>
+                <p class="text-center text-[#E9BCB6]">© 2024 MovieStream Entertainment Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
